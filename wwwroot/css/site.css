@@ -1,0 +1,78 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  color: green;
+  margin-bottom: 60px;
+}
+.navbar-nav {
+  justify-content: flex-end;  
+}
+a:link {
+  color: green;
+  text-decoration: none;
+}
+a:visited {
+  color: coral;
+  text-decoration: none;
+}
+a:hover {
+  color: brown;
+}
+a:active {
+  color: crimson;
+}
+a.order-buton,
+a.order-buton:hover {
+  color: darkmagenta;
+}
+.productInfo,
+.actions {
+  min-width: 200px;
+}
+p {
+  font-size: 0.8rem;
+}
+#orderProcess li {
+  color: chartreuse;
+  display: inline;
+  font-size: 1.2rem;
+  margin-right: 15px;
+  padding: 3px 0 0 5px;
+}
+.step-number {
+  background-color: darkseagreen;
+  border: 1px solid brown;
+  font-size: 1.5rem;
+  margin-right: 5px;
+  padding: 3px 10px;
+}
+
+.current .step-number {
+  background-color: fuchsia;
+  border-color: dodgerblue;
+  color: powderblue;
+}
+
+.orderPageList {
+  padding-inline-start: 20px;
+}
+.actions .order-buton {
+  margin-left: 20px;
+}
